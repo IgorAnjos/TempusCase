@@ -1,0 +1,15 @@
+C:\ProjetosGit\Testes\Tempus\TempusCase\src\DataSolare\bin\Debug\netcoreapp3.1\DataTempus.deps.json
+C:\ProjetosGit\Testes\Tempus\TempusCase\src\DataSolare\bin\Debug\netcoreapp3.1\DataTempus.runtimeconfig.json
+C:\ProjetosGit\Testes\Tempus\TempusCase\src\DataSolare\bin\Debug\netcoreapp3.1\DataTempus.runtimeconfig.dev.json
+C:\ProjetosGit\Testes\Tempus\TempusCase\src\DataSolare\bin\Debug\netcoreapp3.1\DataTempus.dll
+C:\ProjetosGit\Testes\Tempus\TempusCase\src\DataSolare\bin\Debug\netcoreapp3.1\DataTempus.pdb
+C:\ProjetosGit\Testes\Tempus\TempusCase\src\DataSolare\bin\Debug\netcoreapp3.1\BusinessTempus.dll
+C:\ProjetosGit\Testes\Tempus\TempusCase\src\DataSolare\bin\Debug\netcoreapp3.1\BusinessTempus.pdb
+C:\ProjetosGit\Testes\Tempus\TempusCase\src\DataSolare\obj\Debug\netcoreapp3.1\Data.csprojAssemblyReference.cache
+C:\ProjetosGit\Testes\Tempus\TempusCase\src\DataSolare\obj\Debug\netcoreapp3.1\Data.AssemblyInfoInputs.cache
+C:\ProjetosGit\Testes\Tempus\TempusCase\src\DataSolare\obj\Debug\netcoreapp3.1\Data.AssemblyInfo.cs
+C:\ProjetosGit\Testes\Tempus\TempusCase\src\DataSolare\obj\Debug\netcoreapp3.1\Data.csproj.CoreCompileInputs.cache
+C:\ProjetosGit\Testes\Tempus\TempusCase\src\DataSolare\obj\Debug\netcoreapp3.1\Data.csproj.CopyComplete
+C:\ProjetosGit\Testes\Tempus\TempusCase\src\DataSolare\obj\Debug\netcoreapp3.1\DataTempus.dll
+C:\ProjetosGit\Testes\Tempus\TempusCase\src\DataSolare\obj\Debug\netcoreapp3.1\DataTempus.pdb
+C:\ProjetosGit\Testes\Tempus\TempusCase\src\DataSolare\obj\Debug\netcoreapp3.1\Data.genruntimeconfig.cache

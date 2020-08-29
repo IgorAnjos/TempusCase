@@ -1,0 +1,8 @@
+C:\ProjetosGit\Testes\Tempus\TempusCase\src\BusinessSolare\bin\Debug\netcoreapp3.1\BusinessTempus.deps.json
+C:\ProjetosGit\Testes\Tempus\TempusCase\src\BusinessSolare\bin\Debug\netcoreapp3.1\BusinessTempus.dll
+C:\ProjetosGit\Testes\Tempus\TempusCase\src\BusinessSolare\bin\Debug\netcoreapp3.1\BusinessTempus.pdb
+C:\ProjetosGit\Testes\Tempus\TempusCase\src\BusinessSolare\obj\Debug\netcoreapp3.1\Business.AssemblyInfoInputs.cache
+C:\ProjetosGit\Testes\Tempus\TempusCase\src\BusinessSolare\obj\Debug\netcoreapp3.1\Business.AssemblyInfo.cs
+C:\ProjetosGit\Testes\Tempus\TempusCase\src\BusinessSolare\obj\Debug\netcoreapp3.1\Business.csproj.CoreCompileInputs.cache
+C:\ProjetosGit\Testes\Tempus\TempusCase\src\BusinessSolare\obj\Debug\netcoreapp3.1\BusinessTempus.dll
+C:\ProjetosGit\Testes\Tempus\TempusCase\src\BusinessSolare\obj\Debug\netcoreapp3.1\BusinessTempus.pdb

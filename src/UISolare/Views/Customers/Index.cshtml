@@ -1,0 +1,101 @@
+﻿@model IEnumerable<UI.ViewModels.CustomerViewModel>
+
+@{
+    ViewData["Title"] = "Lista de clientes";
+}
+
+<style>
+    .custom-badge {
+        font-weight: 500;
+        border-width: 0.1rem;
+        padding: 0.1rem 0.75rem;
+        font-size: 0.775rem;
+        width: 100px;
+        pointer-events: none;
+        text-transform: initial;
+    }
+
+        .custom-badge.sm {
+            width: 100%;
+            font-size: 0.7rem;
+            padding: 0.1rem 0.35rem;
+            font-weight: 600;
+        }
+
+        .custom-badge.fixed-sm {
+            width: 81px;
+            font-size: 0.75rem;
+            padding: 0.1rem 0.35rem;
+            font-weight: 500;
+        }
+</style>
+<h1>@ViewData["Title"]</h1>
+<p>
+    <a class="btn btn-dark" asp-action="Create">Novo</a>
+</p>
+
+<script>
+    $(document).ready(function () {
+        $('#thCustomer').DataTable({
+            "paginate": false,
+            "lengthMenu": false,
+            "info": false,
+            "language": {
+                "zeroRecords": "Nenhum registro encontrado",
+                "search": "Buscar:"
+            }
+        });
+    });
+</script>
+
+<table id="thCustomer" class="table table-hover">
+    <thead class="thead-dark">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.FullName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FamilyIncome)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.FullName)
+                </td>
+                <td>
+                    @*@Html.DisplayFor(modelItem => item.FamilyIncome)*@
+                    @if (item.FamilyIncome <= 980)
+                    {
+                        <span class="rounded custom-badge btn btn-danger">
+                            @UI.ViewModels.Validations.Badge.CalculateFamilyIncome(item.FamilyIncome)
+                        </span>
+                    }
+                    else if (item.FamilyIncome <= 2500)
+                    {
+                <span class="rounded custom-badge btn btn-warning">
+                    @UI.ViewModels.Validations.Badge.CalculateFamilyIncome(item.FamilyIncome)
+                </span>
+                    }
+                    else
+                    {
+                <span class="rounded custom-badge btn btn-success">
+                    @UI.ViewModels.Validations.Badge.CalculateFamilyIncome(item.FamilyIncome)
+                </span>
+                    }
+
+
+                </td>
+                <td>
+                    <a class="btn btn-dark" asp-action="Details" alt="Detalhes" asp-route-id="@item.Id">Detalhes</a>
+                    <a class="btn btn-warning" asp-action="Edit" asp-route-id="@item.Id">Editar</a>
+                    <a class="btn btn-danger" cite="Remover" asp-action="Delete" asp-route-id="@item.Id">Deletar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

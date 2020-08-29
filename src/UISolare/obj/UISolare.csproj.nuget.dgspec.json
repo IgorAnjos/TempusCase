@@ -1,0 +1,233 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\ProjetosGit\\Testes\\Tempus\\TempusCase\\src\\UISolare\\UISolare.csproj": {}
+  },
+  "projects": {
+    "C:\\ProjetosGit\\Testes\\Tempus\\TempusCase\\src\\BusinessSolare\\Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\ProjetosGit\\Testes\\Tempus\\TempusCase\\src\\BusinessSolare\\Business.csproj",
+        "projectName": "BusinessTempus",
+        "projectPath": "C:\\ProjetosGit\\Testes\\Tempus\\TempusCase\\src\\BusinessSolare\\Business.csproj",
+        "packagesPath": "C:\\Users\\DES-Igor\\.nuget\\packages\\",
+        "outputPath": "C:\\ProjetosGit\\Testes\\Tempus\\TempusCase\\src\\BusinessSolare\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\DES-Igor\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\ProjetosGit\\Testes\\Tempus\\TempusCase\\src\\DataSolare\\Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\ProjetosGit\\Testes\\Tempus\\TempusCase\\src\\DataSolare\\Data.csproj",
+        "projectName": "Data",
+        "projectPath": "C:\\ProjetosGit\\Testes\\Tempus\\TempusCase\\src\\DataSolare\\Data.csproj",
+        "packagesPath": "C:\\Users\\DES-Igor\\.nuget\\packages\\",
+        "outputPath": "C:\\ProjetosGit\\Testes\\Tempus\\TempusCase\\src\\DataSolare\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\DES-Igor\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\ProjetosGit\\Testes\\Tempus\\TempusCase\\src\\BusinessSolare\\Business.csproj": {
+                "projectPath": "C:\\ProjetosGit\\Testes\\Tempus\\TempusCase\\src\\BusinessSolare\\Business.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\ProjetosGit\\Testes\\Tempus\\TempusCase\\src\\UISolare\\UISolare.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\ProjetosGit\\Testes\\Tempus\\TempusCase\\src\\UISolare\\UISolare.csproj",
+        "projectName": "UISolare",
+        "projectPath": "C:\\ProjetosGit\\Testes\\Tempus\\TempusCase\\src\\UISolare\\UISolare.csproj",
+        "packagesPath": "C:\\Users\\DES-Igor\\.nuget\\packages\\",
+        "outputPath": "C:\\ProjetosGit\\Testes\\Tempus\\TempusCase\\src\\UISolare\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\DES-Igor\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\ProjetosGit\\Testes\\Tempus\\TempusCase\\src\\BusinessSolare\\Business.csproj": {
+                "projectPath": "C:\\ProjetosGit\\Testes\\Tempus\\TempusCase\\src\\BusinessSolare\\Business.csproj"
+              },
+              "C:\\ProjetosGit\\Testes\\Tempus\\TempusCase\\src\\DataSolare\\Data.csproj": {
+                "projectPath": "C:\\ProjetosGit\\Testes\\Tempus\\TempusCase\\src\\DataSolare\\Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "KissLog.AspNetCore": {
+              "target": "Package",
+              "version": "[2.5.6, )"
+            },
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

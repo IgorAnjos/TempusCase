@@ -1,0 +1,12 @@
+C:\ProjetosGit\dot-net\CrudSolare\src\DataSolare\bin\Debug\netcoreapp3.1\DataSolare.deps.json
+C:\ProjetosGit\dot-net\CrudSolare\src\DataSolare\bin\Debug\netcoreapp3.1\DataSolare.dll
+C:\ProjetosGit\dot-net\CrudSolare\src\DataSolare\bin\Debug\netcoreapp3.1\DataSolare.pdb
+C:\ProjetosGit\dot-net\CrudSolare\src\DataSolare\bin\Debug\netcoreapp3.1\BusinessSolare.dll
+C:\ProjetosGit\dot-net\CrudSolare\src\DataSolare\bin\Debug\netcoreapp3.1\BusinessSolare.pdb
+C:\ProjetosGit\dot-net\CrudSolare\src\DataSolare\obj\Debug\netcoreapp3.1\DataSolare.csprojAssemblyReference.cache
+C:\ProjetosGit\dot-net\CrudSolare\src\DataSolare\obj\Debug\netcoreapp3.1\DataSolare.AssemblyInfoInputs.cache
+C:\ProjetosGit\dot-net\CrudSolare\src\DataSolare\obj\Debug\netcoreapp3.1\DataSolare.AssemblyInfo.cs
+C:\ProjetosGit\dot-net\CrudSolare\src\DataSolare\obj\Debug\netcoreapp3.1\DataSolare.csproj.CoreCompileInputs.cache
+C:\ProjetosGit\dot-net\CrudSolare\src\DataSolare\obj\Debug\netcoreapp3.1\DataSolare.csproj.CopyComplete
+C:\ProjetosGit\dot-net\CrudSolare\src\DataSolare\obj\Debug\netcoreapp3.1\DataSolare.dll
+C:\ProjetosGit\dot-net\CrudSolare\src\DataSolare\obj\Debug\netcoreapp3.1\DataSolare.pdb

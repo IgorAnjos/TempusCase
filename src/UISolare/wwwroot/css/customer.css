@@ -1,0 +1,13 @@
+﻿body {
+    background: var(--color-input-background);
+}
+
+.btn-purple {
+    background-color: var(--color-btn-purple);
+    color: var(--color-text);
+}
+
+    .btn-purple:hover {
+        background-color: var(--color-btn-houver);
+        color: var(--color-text);
+    }

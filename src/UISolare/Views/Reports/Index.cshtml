@@ -1,0 +1,45 @@
+﻿@model UI.ViewModels.ReportViewModel
+
+@{
+    ViewData["Title"] = "Painel de controle";
+}
+
+<div class="card-columns mb-2">
+    <div class="card border-dark mb-3">
+        <div>
+            <h4 class="blockquote mb-0 card-body">Clientes +18</h4>
+        </div>
+        <div class="card-body">
+            <strong><p>Total: @Model.Count.ToString()</p></strong>
+        </div>
+    </div>
+    <div class="card-columns">
+        <h3>Classe</h3>
+        <div class="card text-white bg-danger mb-3">
+            <div>
+                <h4 class="blockquote mb-0 card-body">A</h4>
+            </div>
+            <div class="card-body">
+                <strong><p>Total: @Model.ClassA.ToString()</p></strong>
+            </div>
+        </div>
+        <div class="card text-white bg-warning mb-3">
+            <div>
+                <h4 class="blockquote mb-0 card-body">B</h4>
+            </div>
+            <div class="card-body">
+                <strong>
+                    <p>Total: @Model.ClassB.ToString()</p>
+                </strong>
+            </div>
+        </div>
+        <div class="card text-white bg-success mb-3">
+            <div>
+                <h4 class="blockquote mb-0 card-body">C</h4>
+            </div>
+            <div class="card-body">
+                <strong><p>Total: @Model.ClassC.ToString()</p></strong>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,8 @@
+C:\ProjetosGit\dot-net\CrudSolare\src\BusinessSolare\bin\Debug\netcoreapp3.1\BusinessSolare.deps.json
+C:\ProjetosGit\dot-net\CrudSolare\src\BusinessSolare\bin\Debug\netcoreapp3.1\BusinessSolare.dll
+C:\ProjetosGit\dot-net\CrudSolare\src\BusinessSolare\bin\Debug\netcoreapp3.1\BusinessSolare.pdb
+C:\ProjetosGit\dot-net\CrudSolare\src\BusinessSolare\obj\Debug\netcoreapp3.1\BusinessSolare.AssemblyInfoInputs.cache
+C:\ProjetosGit\dot-net\CrudSolare\src\BusinessSolare\obj\Debug\netcoreapp3.1\BusinessSolare.AssemblyInfo.cs
+C:\ProjetosGit\dot-net\CrudSolare\src\BusinessSolare\obj\Debug\netcoreapp3.1\BusinessSolare.csproj.CoreCompileInputs.cache
+C:\ProjetosGit\dot-net\CrudSolare\src\BusinessSolare\obj\Debug\netcoreapp3.1\BusinessSolare.dll
+C:\ProjetosGit\dot-net\CrudSolare\src\BusinessSolare\obj\Debug\netcoreapp3.1\BusinessSolare.pdb
